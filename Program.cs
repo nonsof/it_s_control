@@ -9,7 +9,10 @@ Console.WriteLine();
 Test(myarr);
 Console.WriteLine();
 int newLenght = HowMany(myarr);
-
+Console.WriteLine();
+string[] newArray = ReadyArray(newLenght, myarr);
+Console.WriteLine();
+PrintArray(newArray);
 
 
 
@@ -62,4 +65,19 @@ int HowMany (string[] array)
     Console.WriteLine($"count elements of array which include 3 or less simbols = {count}");
     return count;
 }
+ 
+string[] ReadyArray (int l, string[] oldarray)
+{
+    string[] array = new string[l];
+    int j = 0;
+    for (int i = 0; i < oldarray.Length; i++)
+    {
+        if (oldarray[i].Length <= 3)
+        {
+            array [j] = oldarray[i];
+            j++;
+        }
+    }
 
+return array;
+}
