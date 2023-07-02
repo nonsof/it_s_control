@@ -8,9 +8,11 @@ __Examples:__
 - [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 - [“Russia”, “Denmark”, “Kazan”] → []
 
-__Algorithm__ ![you can find here:]() --- or just find file in folder with expansion *.jpg*
+__Algorithm__ ![you can find here:](ready.jpg)
 
-__Program__ you can find n file - *Program1.cs* 
+or just find file in folder with expansion *.jpg*
+
+__Program__ you can find in file - *Program1.cs* 
 
 ## why for it?
 Allright, this program - it's a just a set of methods which help for you find an elements in array which have 3 or less chars. 
