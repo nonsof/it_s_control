@@ -1,4 +1,7 @@
-﻿int lenght = LenghtOfArray();
+﻿using System.Net;
+
+int lenght = LenghtOfArray();
+string[] myarr = UrArray(lenght);
 
 int LenghtOfArray ()
 {
@@ -7,5 +10,15 @@ int l = Convert.ToInt32(Console.ReadLine());
 return l;
 }
 
-// string[] array = new string;
+string[] UrArray (int l)
+{
+    Console.WriteLine("Write any 10 words and use 'enter' after each word for write a next");
+    string[] array = new string[l];
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = Console.ReadLine();
+    }
+
+return array;
+}
 
